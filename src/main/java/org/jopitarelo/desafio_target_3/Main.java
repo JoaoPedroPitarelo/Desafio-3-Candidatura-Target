@@ -1,6 +1,4 @@
-package org.jopitarelo.desafio_target_1;
-
-import org.jopitarelo.desafio_target_3.services.JurosService;
+package org.jopitarelo.desafio_target_3;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;

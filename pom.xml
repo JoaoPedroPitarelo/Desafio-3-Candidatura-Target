@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.jopitarelo.desafio_target_1</groupId>
+    <groupId>org.jopitarelo.desafio_target_3</groupId>
     <artifactId>desafio_target_3</artifactId>
     <version>1.0-SNAPSHOT</version>
 

@@ -1,4 +1,4 @@
-package org.jopitarelo.desafio_target_1;
+package org.jopitarelo.desafio_target_3;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
@@ -27,9 +27,9 @@ public class JurosService {
         }
 
         return valor
-                .multiply(TAXA_DIARIA)
-                .multiply(BigDecimal.valueOf(diasAtraso))
-                .setScale(2, RoundingMode.HALF_UP);
+            .multiply(TAXA_DIARIA)
+            .multiply(BigDecimal.valueOf(diasAtraso))
+            .setScale(2, RoundingMode.HALF_UP);
     }
 
     public long diasEmAtraso(LocalDate vencimento, LocalDate hoje) {
